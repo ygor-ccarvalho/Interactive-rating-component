@@ -1,0 +1,100 @@
+main {
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(217, 12%, 63%);
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.first-page {
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+section {
+    margin: 20px 0px 20px 0px;
+
+}
+
+.first-page section h1 {
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.first-page section span {
+    font-size: 15px;
+}
+
+.icon {
+    background-color: hsl(216, 12%, 24%);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.first-page .choices {
+    display: flex;
+    margin: 30px 0 30px 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.first-page .choices button {
+    padding: 15px 20px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 24%);
+    font-weight: 700;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+
+}
+
+.first-page .choices button:focus {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+
+}
+
+.first-page .choices button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.first-page .button-submit {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-page .button-submit button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.second-page {
+
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px;
+    border-radius: 30px;
+
+}
