@@ -91,10 +91,31 @@ section {
     cursor: pointer;
 }
 
+
 .second-page {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
     background-color: hsl(213, 19%, 18%);
-    padding: 20px;
+    padding: 30px;
     border-radius: 30px;
+    text-align: center;
 
+}
+
+.second-page .rate{
+    color: hsl(25, 97%, 53%);
+    padding: 10px 20px;
+    background-color:hsl(216, 12%, 24%);
+    border-radius: 30px;
+}
+.second-page h1{
+    color: white;
+}
+
+
+.hide {
+    display: none;
 }
